@@ -1,0 +1,23 @@
+{% include header.html %}
+    <ul class="breadcrumb">
+  <li> Home/ Posts / {{ page.title }}</li>
+  </div>
+</ul>
+    <div class="container">
+
+<div class=".row">
+        <div class="col-md-9">
+	<div class="headline"><h3>{{ page.title }}</h3></div>
+	<span class="blog-tags">
+		<i class="icon-calendar">{{ page.date | date_to_long_string }}</i>
+		<i class="icon-tags"></i>
+		{% for tag in page.tags %}
+			<a href="/tags/{{ tag }}">{{ tag }}</a>
+		{% endfor %}
+	</span>
+		{{ content }}
+	</div>
+	<div class="col-md-3">
+		{% include sidebar.html %}
+	</div>
+{% include footer.html %}

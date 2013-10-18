@@ -1,0 +1,49 @@
+/*Blog Tags*/
+ul.blog-tags a {
+	font-size:13px;
+	padding:2px 5px;
+	margin:0 2px 5px 0;
+	display:inline-block;
+	text-shadow:0 1px 0 #fff;
+}
+ul.blog-tags a:hover,
+ul.blog-tags a:hover i {
+	color:#2a6496;
+	text-decoration:none;
+	-webkit-transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-o-transition:all 0.3s ease-in-out;
+	transition:all 0.3s ease-in-out;
+}
+ul.blog-tags a  i {
+	color:#777;
+}
+span.blog-tags  i {
+	color:#777;
+}
+.blog ul.blog-tags {
+	border-bottom:solid 1px #eee;
+	padding-bottom:4px !important;
+}
+.blog ul.blog-tags a {
+	font-size:10px;
+	display:inline;
+	padding:2px 3px;
+	margin-right:2px;
+	background:#f4f4f4;
+}
+
+.headline {
+	display:block;
+	margin:10px 0 25px 0;
+	border-bottom:1px dotted #e4e9f0;
+}
+.headline h3, 
+.headline h4 {
+	color:black;
+	margin:0 0 -2px 0;
+	padding-right:10px;
+	display:inline-block;
+	text-shadow:0 0 1px #f6f6f6;
+	border-bottom:2px solid #428bca;
+}

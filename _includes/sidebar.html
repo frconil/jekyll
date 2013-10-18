@@ -1,0 +1,19 @@
+	     <div class="headline"><h3>Recent</h3></div>
+		{% for post in site.posts limit: 5 %}
+                        <p><a href="{{ post.url }}">{{ post.title }}</a></p> 
+		{% endfor %}
+		<div class="headline"><h3>Blog Tags</h3></div>
+            <ul class="list-unstyled list-inline blog-tags">
+            	<li><a href="#"><i class="icon-tags"></i> Tag1</a></li>
+            	<li><a href="#"><i class="icon-tags"></i> Tag2</a></li>
+            	<li><a href="#"><i class="icon-tags"></i> Tag246523764523</a></li>
+            	
+            </ul>
+	</div>
+    </div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="//code.jquery.com/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
