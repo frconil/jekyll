@@ -1,0 +1,42 @@
+---
+layout: default
+---
+
+{% for post in paginator.posts  %}
+<div class="headline"><h3>{{ post.title }}</h3></div>
+        <span class="blog-tags">
+                <i class="icon-calendar">{{ post.date | date_to_long_string }}</i>
+                <i class="icon-tags"></i>
+                {% for tag in post.tags %}
+                        <a href="/tags/{{ tag }}">{{ tag }}</a>
+                {% endfor %}
+        </span>
+<p></p>
+<p>{{ post.summary }}</p>
+
+{% endfor %}
+<div class="text-center">
+ <ul class="pagination ">
+	{% if paginator.previous_page %}
+          {% if paginator.previous_page == 1 %}     
+               <li><a href="/">Prev</a></li>
+	  {% else %}
+               <li><a href="/page{{ paginator.previous_page }}">Prev</a></li>
+	  {% endif %}
+	{% else %}
+	      <li class="disabled"><a href="#">Prev</a></li>
+	{% endif %}
+	{% for count in (2..paginator.total_pages) %}
+          {% if count == paginator.page %}
+          <li><span class="active">{{ count }}</span></li>
+          {% else %}
+          <li><a href="/page{{ count }}">{{ count }}</a></li>
+          {% endif %}
+        {% endfor %}
+        {% if paginator.next_page %}
+        <li><a href="/page{{ paginator.next_page }}">Next</a></li>
+        {% else %}
+        <li class="disabled"><a href="#">Next</a></li>
+        {% endif %}
+ </ul>
+</div>
