@@ -4,10 +4,9 @@
 		{% endfor %}
 		<div class="headline"><h3>Blog Tags</h3></div>
             <ul class="list-unstyled list-inline blog-tags">
-            	<li><a href="#"><i class="icon-tags"></i> Tag1</a></li>
-            	<li><a href="#"><i class="icon-tags"></i> Tag2</a></li>
-            	<li><a href="#"><i class="icon-tags"></i> Tag246523764523</a></li>
-            	
+        	{% for tag in site.tags %}    
+		<li><a href="/tags/{{ tag[0] }}"><i class="icon-tags"></i>{{ tag[0]  }}</a></li>
+            	{% endfor %}	
             </ul>
 	</div>
     </div>

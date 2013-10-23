@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+{% for post in site.posts  %}
+{% for tag in post.tags %}
+{% if tag == page.tag %}
+
+<div class="headline"><h3>{{ post.title }}</h3></div>
+        <span class="blog-tags">
+                <i class="icon-calendar">{{ post.date | date_to_long_string }}</i>
+                <i class="icon-tags"></i>
+                {% for tag in post.tags %}
+                        <a href="/tags/{{ tag }}">{{ tag }}</a>
+                {% endfor %}
+        </span>
+<p></p>
+<p>{{ post.summary }}</p>
+<p><a href="{{ post.url }}">Read more</a></p>
+{% endif %}
+{% endfor %}
+{% endfor %}
