@@ -9,7 +9,7 @@
         <div class="col-md-9">
 	<div class="headline"><h3>{{ page.title }}</h3></div>
 	<span class="blog-tags">
-		<i class="icon-calendar">{{ page.date | date_to_long_string }}</i>
+		<i class="icon-calendar">  {{ page.date | date_to_long_string }}</i>
 		<i class="icon-tags"></i>
 		{% for tag in page.tags %}
 			<a href="/tags/{{ tag }}">{{ tag }}</a>

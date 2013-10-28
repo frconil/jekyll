@@ -1,5 +1,5 @@
 ---
-title: How to recover a client cert from chrome
+title: Recover a client cert from chrome
 tags: SSL chrome Linux
 layout: post
 summary: Sometimes after migrating workstations, I realised I forgot to take care of one of my certs. A client cert. Now the workstation in question has been dealt with and disposed...
@@ -13,19 +13,21 @@ Now, the workstation in question has been dealt with and disposed (it was a viki
 Enough drama, and onwards to the meaty bits, aka "how to recover that @#$% client certificate"
 
 Using your package manager of choice, install "libnss3-tools" and do the following:
-{% highlight bash %}
-    certutil -d sql:$OLD-HOME/.pki/nssdb -L
+{% highlight bash lineos %}
+    certutil -d sql:$OLDHOME/.pki/nssdb -L
 {% endhighlight %}
 You should get something looking like this:
-{% highlight bash %}
+{% highlight bash lineos %}
     Certificate Nickname                                         Trust Attributes
                                                                	SSL,S/MIME,JAR/XPI
     
     <Certificate name>						 u,u,u
 {% endhighlight %}
 Now all you need to do is:
-{% highlight bash %}
-    pk12util -o certfile.p12 -d sql:$OLD-HOME/.pki/nssdb -n "<Certificate name>"
+{% highlight bash lineos %}
+    pk12util -o certfile.p12 -d sql:$OLDHOME/.pki/nssdb -n "<Certificate name>"
 {% endhighlight %}
 
-You can now import that certificate in your browser of choice!
+You can now import that certificate in your browser of choice.  
+
+
