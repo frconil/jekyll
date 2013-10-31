@@ -1,8 +1,8 @@
 name: "Commit, deploy, publish"
 description: "Ramblings from a French sysops in Australia"
 
-#url: "blog.conil.id.au"
-url: "http://localhost:4000"
+url: "blog.conil.id.au"
+#url: "http://localhost:4000"
 
 paginate: 10
 
