@@ -14,18 +14,18 @@ Now, the workstation in question has been dealt with and disposed (it was a viki
 Enough drama, and onwards to the meaty bits, aka "how to recover that @#$% client certificate"
 
 Using your package manager of choice, install "libnss3-tools" and do the following:
-{% highlight bash lineos %}
+{% highlight bash  %}
     certutil -d sql:$OLDHOME/.pki/nssdb -L
 {% endhighlight %}
 You should get something looking like this:
-{% highlight bash lineos %}
+{% highlight bash  %}
     Certificate Nickname                                         Trust Attributes
                                                                	SSL,S/MIME,JAR/XPI
     
     <Certificate name>						 u,u,u
 {% endhighlight %}
 Now all you need to do is:
-{% highlight bash lineos %}
+{% highlight bash  %}
     pk12util -o certfile.p12 -d sql:$OLDHOME/.pki/nssdb -n "<Certificate name>"
 {% endhighlight %}
 

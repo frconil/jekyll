@@ -29,7 +29,7 @@ I had to do a bit of wrapping though, as I couldn't expect someone to log in and
 I assume you have a fully working copy of jmeter in /opt/monitoring/ .  
 I have a cron entry running every minute running this script:
 
-{% highlight bash lineos %}
+{% highlight bash %}
 #!/bin/bash
 
 DAY=`date +%d`
@@ -45,7 +45,7 @@ This gives me a log that looks like this:
     1382401907124,4645,Login,200,OK,WebApp 1-1,text,true,10174,4645
 
 I can then extract the SLA using this bash script:
-{% highlight bash lineos %}
+{% highlight bash  %}
 #!/bin/bash
 
 
