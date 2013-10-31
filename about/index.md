@@ -6,4 +6,5 @@ I'm a French sys[ops,admin,engineer] currently living in Melbourne, Australia. T
 
 Some posts  will be of a technical nature, some much less so.
 
-This platform is powered by [Jekyll](http://jekyllrb.com/) and a customised [Bootstrap](http://getbootstrap.com/) framework. 
+This platform is powered by [Jekyll](http://jekyllrb.com/) and a customised [Bootstrap](http://getbootstrap.com/) framework, with additional scripts by [Eric Jones](http://erjjones.github.io/).
+ 
