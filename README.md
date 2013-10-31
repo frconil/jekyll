@@ -1,7 +1,21 @@
 jekyll
 ======
 
-Feel free to copy the CSS/templates files, as well as most of the scripts I will post (they are available in my scripts repo anyway)
 The posts and images are, unless specified, not for grabs, but you can always ask for permission :]
 
+Templates and CSS are licensed under the WTFPL as follow:
+
+DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+                   Version 2, December 2004
+ 
+Copyright (C) 2004 Sam Hocevar <sam@hocevar.net>
+ 
+Everyone is permitted to copy and distribute verbatim or modified
+copies of this license document, and changing it is allowed as long
+as the name is changed.
+ 
+           DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+  TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+ 
+ 0. You just DO WHAT THE FUCK YOU WANT TO.
 
