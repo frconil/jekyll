@@ -15,19 +15,22 @@ title: Latest posts
 <p></p>
 <p>{{ post.summary }}</p>
 <p><a href="{{ post.url }}">Read more</a></p>
+<br/>
+<br/>
+<br/>
 {% endfor %}
 <div class="text-center">
  <ul class="pagination ">
-	{% if paginator.previous_page %}
+  {% if paginator.previous_page %}
           {% if paginator.previous_page == 1 %}     
                <li><a href="/">Prev</a></li>
-	  {% else %}
+    {% else %}
                <li><a href="/page{{ paginator.previous_page }}">Prev</a></li>
-	  {% endif %}
-	{% else %}
-	      <li class="disabled"><a href="#">Prev</a></li>
-	{% endif %}
-	{% for count in (2..paginator.total_pages) %}
+    {% endif %}
+  {% else %}
+        <li class="disabled"><a href="#">Prev</a></li>
+  {% endif %}
+  {% for count in (2..paginator.total_pages) %}
           {% if count == paginator.page %}
           <li><span class="active">{{ count }}</span></li>
           {% else %}
