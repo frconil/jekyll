@@ -4,7 +4,7 @@ title: Latest posts
 ---
 
 {% for post in paginator.posts  %}
-<div class="headline"><h3>{{ post.title }}</h3></div>
+<div class="headline"><h3><a href="{{ post.url }}">{{ post.title }}</a></h3></div>
         <span class="blog-tags">
                 <i class="icon-calendar">{{ post.date | date_to_long_string }}</i>
                 <i class="icon-tags"></i>

@@ -1,5 +1,5 @@
 ---
-title: Calculate SLAs using jmeter and Bash (or Python/perl/ruby/insert language of choice) 
+title: Calculate SLAs using jmeter and Bash 
 tags: Jmeter Bash Linux SLAs 
 layout: post
 summary: For some time I raked my brains trying to figure an accurate way to report SLAs. Obviously Nagios could tell me when a service was up, but it's not always enough from the user point of view... 

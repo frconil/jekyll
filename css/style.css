@@ -39,6 +39,7 @@ span.blog-tags  i {
 	border-bottom:1px dotted #e4e9f0;
 }
 .headline h3, 
+.headline a, 
 .headline h4 {
 	color:black;
 	margin:0 0 -2px 0;
