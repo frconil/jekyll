@@ -2,11 +2,12 @@
 title: Quick syntax check for puppet manifests 
 tags: Puppet Git 
 layout: post
-summary: Git is fast, but not so fast that you can test everything on your puppetmaster. Let's also admit that testing for syntax errors is bad form, and the more testing you do ahead of a commit, the better. 
+summary: Git is fast, but not so fast that you can test everything on your puppetmaster. Let's also admit that testing for syntax errors post-commit is bad form, and the more testing you do ahead of a commit, the better. 
 ---
-Git is fast, but not so fast that you can test everything on your puppetmaster. Let's also admit that testing for syntax errors is bad form, and the more testing you do ahead of a commit, the better.
 
-For the sole reason I just can't wait for something to be copied somewhere else, I have this quick pre-commit hook I wrote in bash.
+Git is fast, but not so fast that you can test everything on your puppetmaster. Let's also admit that testing for syntax errors post-commit is bad form, and the more testing you do ahead of a commit, the better.
+
+To avoid this, I have this quick pre-commit hook I wrote in bash.
 It's not perfect and doesn't pick up ALL the mistakes, but it clears a lot of basic errors and typos by doing a basic flight-check.
 Just copy the following in /path/to/puppet-repo/.git/hook/pre-commit
 
