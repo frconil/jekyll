@@ -6,7 +6,7 @@ summary: "For better (and mostly for worse), ops people like to reinvent the whe
 ---
 
 
-For better (and mostly for worse), ops people like to reinvent the whell. Sometimes it's because we don't have the resources available to us (see: reinventing disk_check with df because you are not allowed to install nagios), sometimes it's just a quick and dirty hack that ends up becoming part of the furniture.
+For better (and mostly for worse), ops people like to reinvent the wheel. Sometimes it's because we don't have the resources available to us (see: reinventing disk_check with df because you are not allowed to install nagios), sometimes it's just a quick and dirty hack that ends up becoming part of the furniture.
 
 The important bit is to actually clean up once in a while. 
 
