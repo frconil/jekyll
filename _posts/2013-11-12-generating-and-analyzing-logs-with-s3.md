@@ -28,11 +28,6 @@ Create a new user in AWS IAM, and set up a new policy to access the log bucket:
       ],
       "Effect": "Allow",
       "Resource": "arn:aws:s3:::*"
-    },
-    {
-      "Action": ["s3:*"],
-      "Effect": "Allow",
-      "Resource": ["arn:aws:s3:::logs.conil.id.au", "arn:aws:s3:::logs.conil.id.au/*"]
     }
   ]
 }
@@ -43,6 +38,22 @@ Save your keys and go back to your local workstation and type:
 s3cmd --configure
 {% endhighlight %}
 And enter the credentials for your newly created user.
+
+Go back to the IAM console, and edit your policy to restrict access to the logs bucket (and only directory listing/downloads):
+{% highlight json %}
+{
+  "Statement": [
+   {
+      "Action": [
+         "s3:GetObject",
+         "s3:ListBucket"
+       ],
+      "Effect": "Allow",
+      "Resource": ["arn:aws:s3:::logs.conil.id.au", "arn:aws:s3:::logs.conil.id.au/*"]
+    }
+  ]
+}
+{% endhighlight %}
 
 You can then syncronise your logs with:
 {% highlight bash %}
