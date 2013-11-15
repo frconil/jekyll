@@ -18,7 +18,7 @@ Using your package manager of choice, install "libnss3-tools" and do the followi
     certutil -d sql:$OLDHOME/.pki/nssdb -L
 {% endhighlight %}
 You should get something looking like this:
-{% highlight bash  lineos %}
+{% highlight bash  %}
     Certificate Nickname                                         Trust Attributes
                                                                	SSL,S/MIME,JAR/XPI
     
