@@ -1,0 +1,9 @@
+install: bundle install
+language: ruby
+script: bundle exec jekyll build
+rvm: 
+- 1.8.7
+env: 
+  global: 
+  - secure: f2mO3Qn59eLE7V2XqFbQ0nO/pxAxWKic63np4AxuipBi8wJKxvwMuXy9i+u4+YdPCeWS3y62gvvoSDVXQI52ZXplSnTlIbtH1sBpJ5zYr2+4KBAKTr6J5oSqkhFBRP0NkGm1AA57Ta1W01HWUJgzR3iVrGyQ9qkrDsUj25TlHtI=
+  - secure: eJvkDw8uqJuoQIYMf70O9m/XvQ9pANO6VOMQDOq+VIJLtxOovQ8XL4xzrGjplDbhmN4fNEfvs9aj8htlW9UiRmfVPcvCpwGsxbjRudXvMcA6ptj+n6apFy2zYc1GWYuYy2o4ymCmQWnackVaKJaopEtqPIfUhx0l4PeFXlHOMfA=
