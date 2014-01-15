@@ -10,7 +10,7 @@ For better (and mostly for worse), ops people like to reinvent the wheel. Someti
 
 The important bit is to actually clean up once in a while. 
 
-My issue started when we were streamlining/automating some of our builds. One of the package requirements was sun-java6-*, which involve accepting a licence. Personally I chaffed at the fact that we had a mostly automated build, but we still had to log on individual servers, install java by hand like peasants and then only could we start puppet. It would also make things like unattended self-service deploys (my personal end goal :3 )
+My issue started when we were streamlining/automating some of our builds. One of the package requirements was sun-java6-*, which involve accepting a licence. Personally I chaffed at the fact that we had a mostly automated build, but we still had to log on individual servers, install java by hand like peasants and then only could we start puppet. It would also make things like unattended self-service deploys (my personal end goal :3 ) a bit more difficult.
 
 Now I was getting started with puppet, so I threw together a quick and very dirty hack to accept the licence:
 {% highlight puppet %}

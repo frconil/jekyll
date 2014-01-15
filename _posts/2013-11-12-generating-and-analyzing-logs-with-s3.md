@@ -126,6 +126,7 @@ Files get populated just by running awstats_buildstaticpages.pl:
 
 
 As a conclusion, here is the bash script I use to download the logs, convert them to combined, and then generate an HTML report using awstats:
+
 {% highlight bash %}
 #!/bin/bash
 
@@ -148,4 +149,3 @@ awk '{ printf "%s - - %s %s %s %s %s %s %s %s",$5,$3,$4,$10,$11,$12,$13,$15,$19;
 /usr/share/awstats/tools/awstats_buildstaticpages.pl -config=$WEBSITE -update -dir=$HOME/awstats
 
 {% endhighlight %}
-
