@@ -2,12 +2,9 @@
 title: Calculate SLAs using jmeter and Bash 
 tags: Jmeter Bash Linux SLAs 
 layout: post
-summary: For some time I raked my brains trying to figure an accurate way to report SLAs. Obviously Nagios could tell me when a service was up, but it's not always enough from the user point of view... 
 ---
 
-For some time I raked my brains trying to figure an accurate way to report SLAs. 
-
-Obviously Nagios could tell me whether a service was up, but it's not enough from the user point of view, and we very quickly go back to the painful problem of adjusting metrics and reporting to match a customer expectation. 
+For some time I raked my brains trying to figure an accurate way to report SLAs. Obviously Nagios could tell me whether a service was up, but it's not enough from the user point of view, and we very quickly go back to the painful problem of adjusting metrics and reporting to match a customer expectation. 
 
 I think we've all experienced an irate call/mail from a stakeholder telling us that "the system is down" while Nagios is trudging along nicely with all services green. 
 

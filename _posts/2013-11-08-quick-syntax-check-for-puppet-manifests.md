@@ -2,7 +2,6 @@
 title: Quick syntax check for puppet manifests 
 tags: Puppet Git 
 layout: post
-summary: Git is fast, but not so fast that you can test everything on your puppetmaster. Let's also admit that testing for syntax errors post-commit is bad form, and the more testing you do ahead of a commit, the better. 
 ---
 
 Git is fast, but not so fast that you can test everything on your puppetmaster. Let's also admit that testing for syntax errors post-commit is bad form, and the more testing you do ahead of a commit, the better.

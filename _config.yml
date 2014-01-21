@@ -2,10 +2,8 @@ name: "Commit, deploy, publish"
 description: "Ramblings from a French sysops in Australia"
 
 url: "http://blog.conil.id.au"
-#url: "http://localhost:4000"
 
 paginate: 10
-
 markdown: rdiscount
 permalink: pretty
 pygments: true

@@ -2,7 +2,6 @@
 title: Puppet, Debconf and Preseed
 tags: Puppet Debian Packaging
 layout: post
-summary: "For better (and mostly for worse), ops people like to reinvent the wheel. Sometimes it's because we don't have the resources available to us (see: reinventing disk_check with df because you are not allowed to install nagios), sometimes it's just a quick and dirty hack that ends up becoming part of the furniture..."
 ---
 
 
@@ -47,7 +46,7 @@ sun-java6-jre shared/accepted-sun-dlj-v1-1  boolean true
 {% endhighlight %}
 
 Armed with this, we can generate a new, cleaner puppet module:
-{% highlight ruby %}
+{% highlight puppet %}
 # Base Java class
 
 class sun-java6-jre {
@@ -68,7 +67,7 @@ sun-java6-jdk shared/accepted-sun-dlj-v1-1  boolean true",
 {% endhighlight %}
 
 I could also call the file directly from the puppet server itself using source instead of content, like so:
-{% highlight ruby %}
+{% highlight puppet %}
 file { "/var/cache/debconf/sun-java6-jre.preseed":
     ensure       => present,
     source       => "puppet://puppet/files/sun-java6-jre.preseed",

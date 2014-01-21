@@ -2,7 +2,6 @@
 title: The lion, the stone, and DevOps. 
 tags: Devops  
 layout: post
-summary: No, we're not going to have a parody of a well known book by CS Lewis, even if sometimes Software Delivery sounds more like witchcraft than rational science (looking at you, Java error stacks)...
 ---
 
 No, we're not going to have a parody of a well known book by CS Lewis, even if sometimes Software Delivery sounds more like witchcraft than rational science (looking at you, Java error stacks).

@@ -2,7 +2,6 @@
 title: Generating and analyzing logs with S3 
 tags: AWS S3 Linux Bash
 layout: post
-summary: I am using Jekyll to generate a website that I then deploy to an S3 bucket repository to host this blog, and while it is relatively easier and requires less effort than hosting a custom solution on your own server (with all that implies, ie. apache, database, setup, configuration, maintenance) you do relinquish some of the things you took for granted, like apache logs and those fancy graphic reports. Or do you?
 ---
 I am using Jekyll to generate a website that I then deploy to an S3 bucket repository to host this blog, and while it is relatively easier and requires less effort than hosting a custom solution on your own server (with all that implies, ie. apache, database, setup, configuration, maintenance) you do relinquish some of the things you took for granted, like apache logs and those fancy graphic reports. Or do you?
 

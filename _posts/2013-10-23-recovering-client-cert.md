@@ -2,7 +2,6 @@
 title: Recover a client certificate from chrome
 tags: SSL chrome Linux
 layout: post
-summary: After migrating workstations, I realised I forgot to take care of one of my certificates. A client certificate. Now the workstation in question has been dealt with and disposed...
 ---
 
 After migrating workstations, I realised I forgot to take care of one of my certificates.   
