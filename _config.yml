@@ -6,4 +6,4 @@ url: "http://blog.conil.id.au"
 paginate: 10
 markdown: rdiscount
 permalink: pretty
-pygments: true
+highlighter: pygments 
