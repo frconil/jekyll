@@ -3,3 +3,5 @@ _site/
 *.DS_Store
 _jekyll_s3.yml
 #s3_website.yml
+Gemfile
+Gemfile.lock

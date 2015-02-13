@@ -1,0 +1,74 @@
+==================================================================
+https://keybase.io/fconil
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://blog.conil.id.au
+  * I am fconil (https://keybase.io/fconil) on keybase.
+  * I have a public key with fingerprint 87E6 AF87 64E7 ABFB C470  4BD2 6E1A 1C51 FBEF F232
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "87e6af8764e7abfbc4704bd26e1a1c51fbeff232",
+            "host": "keybase.io",
+            "key_id": "6e1a1c51fbeff232",
+            "kid": "010196b38f4903a3b21cd8446611c903c1fbdc741430a2e7b22f005feb945e95eeb10a",
+            "uid": "041d924c469166b28ac603f7ecd0e119",
+            "username": "fconil"
+        },
+        "revoke": {
+            "sig_ids": [
+                "4c8380c51a082f099164a693f1c5e3e28f1f70ec6bcb7f0e911848ceecf506a00f"
+            ]
+        },
+        "service": {
+            "hostname": "blog.conil.id.au",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1423789236,
+    "expire_in": 157680000,
+    "prev": "a0ea6bf774b742de9ee6e827a474153d4aa7c132b8abca49498a4be782caaae7",
+    "seqno": 6,
+    "tag": "signature"
+}
+
+which yields the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.4
+Comment: https://keybase.io/crypto
+
+yMJiAnicbZJfbBVFFMZvixWpsVCC9V+sZhoerOVmZnd2ZnaJwQdDAElN0MSKlWZm
+9ky7adm97N1eINBUY2uMfakaE7gaQktIwGpCQyUxqeECTXgor6KQQAMPEEXgARPT
+kKCzFd6Yl8mc+c7vO+fMzD2zrNBY19g+PPz9br6rbv7MocHCe1e2zuxDKgn3omAf
+6oelzURxL6SlNIozFCDBgUkjOKPApTJKU46pCh0GRBLtEaPAGMd1UAfqS8p5hsUo
+WYZilNiYPfREoY0+Rt+/dIEJJj5TrjDUx650lUN0KChljBBtI9qmhJpTQl0sHeDK
+cQzGngHlUw98D0ARLC1u8H8cJaHvUE2ZTxhTjpCaYddw0CEGQvxcWIY0ljvBqo1O
+4mgADXWgFCpJP+T9l6NeW3IZBR8iqoUrsK1aYmFdfYukkvmusZ2AC44wxHAMmimt
+uMHgEyKo0ADaeJhJjA36yLKtXyXSS/B8Rg+91UDSW1zyL0ZhUQ7aykppkiU6GbC3
+fVlWCvLCsr2lXL0bVM9DTo+K4tA+kk2oQFqOkhgFxCp1FuVgQh2XC99xWQeCPaUo
+hZ4oV3icCWxXbgMVi5QYJFOGc6o4dULwARgIh0tqp+25IZWSa+I6SkilJfWpLyRV
+wIWjpZTAUd7ZrjhBgXXKZK9F2tnFMhtMAQ2drXU/UahrLDzZUJ9/s0LjilWPPt+8
+eqpQG1/z9WeLrZfvnW0mpa/aH9x8a4q2XKq/v3nkk+LN9Wcmp65WDq3ueLVz7M7M
+FXnyzpG27g3npn+5UGttWXVrZm3Lwe8mhzY1RaXlLW+c+8Al8U/3Z9eFi8+SdL/X
+8M3zL/ne21fbJn54f2Hk0snzP/61acf0czMXtz69p9L0z2j98TF3fDgLnOrB6rdf
+jByYW2jvXLe9+ffT6dysP7b/1tpfl0+vrFQPT97dPHH4xtGF2s/FP0Y/paVa64GP
+u+bXX7t45LW+U7NrRhv+XbalGtwbvb6t8+8m/W5X8dj2lYtsxZcbT7zYFXSfuPb5
+681bpl6u/PnmjtPH5zpP/XZ5HDWsfqW6ccPtd9pemPgP7fM/bQ==
+=forW
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/fconil
+
+==================================================================
+
