@@ -2,4 +2,4 @@ source "https://rubygems.org"
 
 gem 'jekyll'
 gem 'rdiscount'
-gem 's3_website'
+gem 's3_website', '~> 1'
